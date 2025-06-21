@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-@import url(../../Styles/header.css);
-@import url(../../Styles/section1.css);
-@import url(../../Styles/aboutus.css);
-@import url(../../Styles/popular.css);
-@import url(../../Styles/trending.css);
-@import url(../../Styles/offers.css);
-@import url(../../Styles/footer.css);
+@import url(header.css);
+@import url(section1.css);
+@import url(aboutus.css);
+@import url(popular.css);
+@import url(trending.css);
+@import url(offers.css);
+@import url(footer.css);
 *{
     /* background-color: bisque; */
     overflow-x:hidden;
