@@ -1,0 +1,40 @@
+footer{
+    display:flex;
+    align-items: center;
+    padding-left:20px;
+    justify-content: center;
+}
+.logo{
+    font-family:playfair display;
+    font-size:34px;
+    flex:1;
+}
+.logo h3{
+    overflow:hidden;
+}
+.list{
+    display:flex;
+    overflow:hidden;
+    margin-left:0px;
+
+}
+.list li{
+    padding-right:80px;
+    font-size:16px;
+    font-family:inter;
+    text-transform:uppercase;
+    cursor:pointer;
+    overflow:hidden
+}
+.social-list{
+    position:relative;
+    display: flex;
+    background-color: black;
+    gap:55px;
+    width:fit-content;
+    align-items:center;
+    padding:16px;
+}
+.social-list img{
+    flex-basis:33%
+}

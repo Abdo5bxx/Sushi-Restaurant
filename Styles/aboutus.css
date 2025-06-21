@@ -1,0 +1,56 @@
+.about-us{
+    display:flex;
+    background-color: bisque;
+}
+.about-us__mission--1 img, .about-us__mission--2 img{
+    width:220px;
+    margin-bottom:60px;
+    margin-left:25px;
+    margin-top:25px;
+    max-width:100%;
+    object-fit: contain;
+}
+.about-us__mission{
+    flex-basis:50%;
+    background-color: white;
+    padding-right:20px;
+    position:relative;
+}
+.about-us__mission--1{
+    width:fit-content;
+}
+@media(max-width:480px){
+    .about-us__mission--2{
+        position:absolute;
+        bottom:0;
+        right:8px;
+    }
+}
+.about-us__content{
+    flex-basis:50%;
+}
+.about-us__mission--button{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform:translateY(-50%);
+    background-color: black;
+    color: white;
+    padding: 16px;
+    border-radius: 15px 0 0px 20px;
+    font-family: plus jakarta sans;
+}
+.about-us__content p{
+    font-size: 18px;
+    margin-left: 25px;
+    opacity: 28%;
+    font-family: 'Inter';
+    margin-top: 31px;
+}
+.about-us__content h2{
+    font-family: 'Playfair Display';
+    overflow: hidden;
+    margin-left: 25px;
+    line-height: 1.8;
+    font-size: 33px;
+}

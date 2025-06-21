@@ -1,0 +1,144 @@
+.popular-foods{
+    align-items:center;
+    justify-items:center;
+    justify-content: center;
+    background-color: brown;
+    width:100%;
+    padding-bottom:20px;
+}
+.popular-foods__title{
+    align-items: center;
+    color:white;
+    font-family:playfair display;
+    font-size:35px;
+    font-weight:700;
+    overflow:hidden;
+    margin-top:20px;
+}
+.popular-foods__filters{
+    align-items: center;
+    background-color:rgba(255,255,255,0.01);
+}
+.popular-foods__filters img{
+    width:20px;
+    height:20px;
+    object-fit: contain;
+    justify-content: center;
+}
+.popular-foods__filters button{
+    background-color: rgba(255,255,255,0.1);
+    margin:20px 15px;
+    border-radius:35px;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    justify-content: center;
+    font-family: inter;
+    padding-top:7px;
+}
+.popular-foods__filters button:hover{
+    background-color: white;
+    color:black;
+    margin:20px 15px;
+    border-radius:35px;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    justify-content: center;
+    font-family:inter;
+    padding-top:7px;
+
+}
+#button1{
+    background-color: white;
+}
+.popular-foods__catalogues{
+    display:flex;
+    background-color: brown;
+}
+@media(max-width:1100px){
+    .popular-foods__catalogues{
+        flex-direction: column;
+        gap:35px;
+    }
+}
+.popular-foods__catalogues img{
+    width:200px;
+    height:200px;
+}
+.popular-foods__catalogues article{
+    margin: 0 100px;
+    padding:15px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    border:none;
+    border-radius:10px;
+    background-color: rgba(255,255,255,0.1);
+    font-family:plus jakarta sans;
+    height:320px;
+    width:200px;
+}
+.popular-foods__catalogues article:hover{
+    margin: 0 100px;
+    padding:15px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    border:none;
+    border-radius:10px;
+    background-color: white;
+    font-family:plus jakarta sans;
+}
+.popular-foods__catalogues h3{
+    align-items: center;
+}
+.popular-foods__catalogues div{
+    position:relative;
+    left:80%;
+    bottom:13%;
+}
+.popular-foods__catalogues span{
+    position: relative;
+    left:28px;
+    top:-20px;
+    overflow:hidden;
+}
+.popular-foods__button{
+    background-color:black;
+    color:white;
+    padding:20px;
+    border-radius:35px;
+    border:none;
+    outline:none;
+    margin-top:20px;
+    font-family:inter;
+    font-weight:600;
+}
+.popular-foods__button:hover{
+    background-color:rgb(114, 3, 3);
+    color:rgb(255, 255, 255);
+    padding:20px;
+    border-radius:35px;
+    border:none;
+    outline:none;
+    margin-top:20px;
+    font-family:inter;
+    font-weight:600;
+}
+#star{
+    width:20px;
+    height: 20px;
+    object-fit: contain;
+}
+#button1 {
+    padding:10px 12px 10px 12px;   
+}
+#button6 {
+    padding:10px 12px 10px 12px;   
+}
+#sushi1{
+    background-color:white;
+    color:black;
+    padding-top:70px;
+    
+    /* align-items:center; */
+}

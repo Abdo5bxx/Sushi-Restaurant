@@ -1,0 +1,161 @@
+.section1{
+    position:relative;
+    top:-32px;
+    width:100%;
+    left:0;
+    display:flex;
+}
+.section1__sushi-1{
+    flex:1;
+    background-color: brown;
+    padding-right:35px;
+}
+.section1__sushi-1 img{
+    width: 530px;
+    height:592px;
+    background-color: brown;
+    position:relative;
+    /* top:-13.6px; */
+    
+}
+.section1__text{
+    position: relative;
+    /* left:750px; */
+    /* top:-700px; */
+    
+    height:540px;
+    flex:1;
+    padding:30px;
+    background-color: bisque;
+    overflow:hidden;
+}
+.section1__text h1{
+    position:relative;
+    font-size:35px;
+    font-weight:bolder;
+    background-color: bisque;
+    font-family:inter;
+}
+.section1__text--button{
+    background-color:black;
+    color:white;
+    border-radius:25px;
+    position:relative;
+    top:25px;
+    padding:15px 35px;
+    outline:none;
+    border:none;
+}
+.section1__text--button:hover{
+    background-color: white;
+    color:black;
+    outline:none;
+    border:none;
+}
+.section1__text--button1{
+    position:relative;
+    top:25px;
+    left:20px;
+    border:none;
+    padding:15px 35px;
+    border-radius:25px;
+}
+.section1__text--button1:hover{
+    background-color: white;
+    color:black;
+    outline:none;
+    border:none;
+}
+.section1__text--review{
+    background-color: white;
+    position: relative;
+    top:240px;
+    left:-40px;
+    align-items: center;
+    overflow:hidden;
+    padding-top:80px;
+    color:black;
+    width:690px;
+}
+.section1__text--review--1{
+    background-color: white; 
+    font-family:playfair display;
+    font-size:30px;
+    font-weight:400%;
+    position:relative;
+    left:20px;
+    top:-50px;
+}
+.section1__text--review--2{
+    background-color: white;
+    font-size:20px;
+    font-family:inter;
+    position:relative;
+    bottom:20px;
+    font-weight:bolder;
+}
+@media(max-width:480px){
+    
+    .section1__text h1{
+        font-size:24px;
+    }
+    .section1__text--button1{
+        position:relative;
+        top:50px;
+        left:0;
+    }
+    .section1__text--review{
+        position:relative;
+        top:140px;
+        
+    }
+    .section1__sushi-1 img {
+        width:250px;
+    }
+    .section1__text{
+        position:relative;
+        right:-20px;
+    }
+}
+@media(max-width:640px){
+    .section1__sushi-1 img{
+        width:380px;
+    }
+
+    .section1__text--button1{
+        position:relative;
+        left:0;
+        top:50px;
+    }
+    .section1__text--review{
+        position:relative;
+        top:100px;
+        /* left:20px; */
+        width:210px;
+        
+    }
+}
+@media(max-width:768px){
+    .section1__sushi-1 img{
+        width:347px;
+        height:592px;
+    }
+    .section1__text--review{
+        padding-right:100px;
+        position:absolute;
+        top: 440px;
+        left:0;
+        padding-right:145px;
+        display:flex;
+        flex-direction: column;
+    }
+    .section1__text--review--1{
+        position:relative;
+        left:-280px;
+    }
+    .section1__text--review--2{
+        position:relative;
+        bottom:50px;
+        left:-200px;
+    }
+}

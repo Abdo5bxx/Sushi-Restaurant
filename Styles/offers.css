@@ -1,0 +1,50 @@
+.offers{
+    background-color:brown;
+    width:100%;
+    text-align: center;
+    padding-top:20px
+}
+.offers h1{
+    color:white;
+    font-family:playfair display;
+    font-size:30px;
+    font-weight:800;
+    overflow: hidden;
+}
+.offers span{
+    color:white;
+    font-family:inter;
+    font-size:15px;
+}
+.offers__form{
+    border:1px solid white;
+    width:20%;
+    padding:15px 15px;
+    border-radius:35px;
+    display:flex;
+    width: fit-content;
+    margin: 25px auto;
+}
+.offers__form input{
+    background-color: transparent;
+    border:none;
+    outline:none;
+    flex:1;
+    text-align: center;
+   
+}
+.offers__form input::placeholder{
+    color:rgba(255,255,255,0.8);
+    font-family:inter;
+}
+.offers__form button{
+    color:white;
+    background-color: black;
+    border:none;
+    outline:none;
+    padding:15px 15px;
+    border-radius:35px;
+    font-family:inter;
+    cursor:pointer;
+    font-weight:700;
+}
