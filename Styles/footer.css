@@ -48,8 +48,8 @@ footer{
     flex-basis:25%;
     padding:25px 0;
     align-items: center;
-    justify-content: center;
-    gap:85px;
+    justify-content: space-evenly;
+    gap:35px;
 }
 /* .social-list img{
     position: absolute;
