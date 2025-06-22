@@ -8,6 +8,7 @@ footer{
     font-family:playfair display;
     font-size:34px;
     flex:1;
+    flex-basis:25%;
 }
 .logo h3{
     overflow:hidden;
@@ -16,7 +17,20 @@ footer{
     display:flex;
     overflow:hidden;
     margin-left:0px;
-
+    flex-basis:50%;
+}
+@media (max-width:835px) {
+    .list{
+        display:none;
+    }
+    .social-list{
+        flex:1;
+        width:100%;
+        gap:25px;
+    }
+    .logo{
+        flex-basis: 50%;;
+    }
 }
 .list li{
     padding-right:80px;
@@ -30,11 +44,16 @@ footer{
     position:relative;
     display: flex;
     background-color: black;
-    gap:55px;
-    width:fit-content;
-    align-items:center;
-    padding:16px;
+    width:100%;
+    flex-basis:25%;
+    padding:25px 0;
+    align-items: center;
+    justify-content: center;
+    gap:85px;
 }
-.social-list img{
-    flex-basis:33%
+/* .social-list img{
+    position: absolute;
 }
+.social-list img:nth-last-of-type{
+    right:0;
+} */

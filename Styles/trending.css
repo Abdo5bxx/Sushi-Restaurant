@@ -1,14 +1,17 @@
-
+.trending{
+    position:relative;
+    height:fit-content;
+}
 .trending__food{
     display:flex;
     height: fit-content;
 }
 .trending__food--content, .trending__food--image{
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 @media (max-width:768px) {
     .trending__food--content, .trending__food--image{
-        padding-bottom:0
+        padding-bottom:0;
     }
 }
 .trending__food--content .text, .trending__drinks--content .text{
@@ -16,8 +19,8 @@
     margin-left:30px;
 }
 @media(max-width:768px){
-    .trending__food--content .text, .trending__drinks--content .text{
-        font-size:60%;
+    .trending__food--content .text h1, .trending__drinks--content .text h1{
+        font-size:32px;
     }
 }
 .trending__food--content, .trending__drinks--content{
@@ -28,6 +31,7 @@
 .trending__food--content span, .trending__drinks--content span{
     font-family: 'Inter';
     opacity: 35%;
+    margin-left:28px;
 }
 .trending__food--content h1, .trending__drinks--content h1{
     font-size: 55px;
@@ -119,4 +123,16 @@
 }
 .trending__drinks--content, .trending__drinks--image{
     padding-bottom:100px;
+}
+.trending__button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    font-family: 'Inter';
 }
